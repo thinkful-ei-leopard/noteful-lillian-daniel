@@ -5,7 +5,7 @@ function Folder(props){
     return(
       <li>
         <Link to={`/Folder/${props.id}`}>
-          {props.name}
+        {props.name}
         </Link>
       </li>
     )

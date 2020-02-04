@@ -1,14 +1,14 @@
 import React from 'react';
-import STORE from '../STORE';
-import Note from './MainNote';
-import './NoteList.css';
+//import STORE from '../STORE';
+import Note from './FolderNote';
+import '../Main/NoteList.css';
 
 class NoteList extends React.Component {
   render(){
     return(
       <div className="note-list">
         <ul>
-          {STORE.notes.map(note =>
+          {this.props.notes.filter((note) => note.folderId === this.props.id).map(note =>
             <Note 
               id={note.id} 
               name={note.name} 

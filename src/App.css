@@ -5,4 +5,9 @@
 header {
   text-align: center;
   background-color: lightgray;
+  padding: 1em;
+}
+
+* {
+  text-decoration: none;
 }

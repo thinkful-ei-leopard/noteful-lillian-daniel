@@ -1,7 +1,7 @@
 import React from 'react';
-import Folder from './MainFolder';
+import Folder from './FolderFolder';
 import STORE from '../STORE';
-import './FolderList.css';
+import '../Main/FolderList.css';
 
 
 class FolderList extends React.Component {
@@ -17,6 +17,7 @@ class FolderList extends React.Component {
                     Add Folder
                 </button>
             </div>
+            //duplicating folder
         )
     }
 };
