@@ -11,3 +11,11 @@ header {
 * {
   text-decoration: none;
 }
+
+a:visited {
+  color: black;
+}
+
+a {
+  color: black;
+}
