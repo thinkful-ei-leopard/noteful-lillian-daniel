@@ -1,12 +1,13 @@
 import React from 'react';
-import Folder from './Folder';
-import STORE from './STORE';
+import Folder from './MainFolder';
+import STORE from '../STORE';
+import './MainFolderList.css';
 
 
 class FolderList extends React.Component {
     render() {
         return (
-            <div>
+            <div className='folder-list-div'>
                 <ul>
                   {STORE.folders.map (folder =>
                     <Folder id={folder.id} name={folder.name} /> 

@@ -1,0 +1,14 @@
+.note-list {
+  display: inline-block;
+  width: 60%;
+}
+
+.note-list li{
+  display: flex;
+  border: 1px solid black;
+  max-width: 500px;
+}
+
+.delete-button{
+  height: fit-content;
+}

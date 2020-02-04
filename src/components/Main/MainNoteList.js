@@ -1,6 +1,7 @@
 import React from 'react';
-import STORE from './STORE';
-import Note from './Note';
+import STORE from '../STORE';
+import Note from './MainNote';
+import './MainNoteList.css';
 
 class NoteList extends React.Component {
   render(){
@@ -16,6 +17,7 @@ class NoteList extends React.Component {
               />
             )}
         </ul>
+        <button className='add-note-button' type='submit'>Add Note</button>
       </div>
     )
   }

@@ -1,0 +1,13 @@
+.folder-list-div li {
+    border: solid 1px black;
+}
+
+.folder-list-div ul {
+    list-style: none;
+}
+
+.folder-list-div {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
